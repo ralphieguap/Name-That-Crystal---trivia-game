@@ -1,0 +1,15 @@
+// 8 crystal layout with a soace for the clue and another for andswer
+//start and stop button
+//ganme reset button
+//score board 
+//notificaion of wring selection
+//notification of game won
+//notification or identifier that game has started
+//randomize clues (function)
+// remove crystal from board once player has matched it correctly
+//timer?? - no
+//limit on wrong chances?? - no 
+//name of stone above pictures 
+//make pictures fit in the tiles and small enough for name to appear above
+//create event listeners for draggable tiles
+//add drop event for answer spot 
