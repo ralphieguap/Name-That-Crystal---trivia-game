@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <h1 class="title">Name that Crystal</h1>
+    <h3 class="instructions">Select the correct crystal that relates to the given attribute.</h3>
+</header>
+
+<body>
+    <div id="container">
+        
+        <div class="left" draggable="true">Amethyst</div>
+        <div class="right" draggable="true">Azurite</div>
+        <div class="left1" draggable="true">Citrine</div>
+        <div class="right1" draggable="true">Labradorite</div>
+    </div>
+
+    <div id="container2">
+        <button id="startButton">Start</button>
+        <div class="prompt">Clue</div>
+        <div class="answer" ondrop="drop(event)" ondragover="allowDrop(event)">Drop Answer Here</div>
+    <div class="controls"></div>
+        <button id="resetButton">Reset</button>
+    </div>
+
+    <div id="container1">
+        <div class="left2" draggable="true">Moonstone</div>
+        <div class="right2" draggable="true">Quartz</div>
+        <div class="left3" draggable="true">Moldavite</div>
+        <div class="right3" draggable="true">Shattukite</div>
+    </div>
+
+    <div id="scoreboard">
+        <h4>Score: <span id="score">0</span></h4>
+    </div>
+    
+   
+<script src="script.js"></script>
+
+</body>
+
+</html>
